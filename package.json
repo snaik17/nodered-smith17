@@ -19,7 +19,7 @@
         "node-red-nodes-cf-sqldb-dashdb":"0.x"
     },
     "scripts": {
-        "start": "node --max-old-space-size=384 node_modules/node-red/red.js --settings ./bluemix-settings.js -v"
+        "start": "node --max-old-space-size=550 node_modules/node-red/red.js --settings ./bluemix-settings.js -v"
     },
     "engines": {
         "node": "4.x"
